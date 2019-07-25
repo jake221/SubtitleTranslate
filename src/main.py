@@ -17,4 +17,4 @@ plain_txt = read_txt(input_txt_file)
 
 # Translate the subtitle into English
 # save both English and Chinese to the output input_srt file
-# translate_and_compose(input_srt_file, output_srt_file, 'zh-CN', 'en', encoding='UTF-8-sig')
+translate_and_compose(input_srt_file, output_srt_file, plain_txt, 'zh-CN', 'en', encoding='UTF-8-sig')

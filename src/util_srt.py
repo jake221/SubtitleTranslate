@@ -183,3 +183,15 @@ def sen_list2dialog_list(sen_list, mass_list, space=False, cn=False) -> list:
             dialog_list[record[-1][0]-1] += sentence[last_idx:]
 
     return dialog_list
+
+
+def obtain_dialog_idx(origin_sub, plain_text):
+    current_idx = 0
+    dialog_idx = []
+    for sub in origin_sub:
+        sub.content = sub.content.replace('\n', ' ')
+        current_idx += len(sub.content)
+        while(sub.content[-1] != plain_text[current_idx-1]):
+            current_idx += 1
+        dialog_idx.append(current_idx)
+    return dialog_idx

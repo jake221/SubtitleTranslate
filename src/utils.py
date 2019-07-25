@@ -23,7 +23,7 @@ def simple_translate_srt(origin_sub: list, src_lang: str, target_lang: str) -> l
     return translated_sen_list
 
 
-def translate_srt(origin_sub: list, src_lang: str, target_lang: str, space=False) -> list:
+def translate_srt(origin_sub: list, plain_text: str, src_lang: str, target_lang: str, space=False) -> list:
     """
     Translate the srt
         Afrikaans	af      Albanian	sq      Amharic	am      Arabic	ar      Armenian	hy      Azerbaijani	az
@@ -49,9 +49,13 @@ def translate_srt(origin_sub: list, src_lang: str, target_lang: str, space=False
     # Initialize a translator
     t = Translator()
 
+    """
+    Original code
     # Reconstruct plain text of the whole subtitle file.
     # Record the index of each dialogue in the plain text.
-    plain_text, dialog_idx = triple_r(origin_sub)
+    # plain_text, dialog_idx = triple_r(origin_sub)
+    """
+    dialog_idx = obtain_dialog_idx(origin_sub, plain_text)
 
     # Split the plain text into sentences.
     # Record the index of each sentence in the plain text.
@@ -73,7 +77,7 @@ def translate_srt(origin_sub: list, src_lang: str, target_lang: str, space=False
     return dialog_list
 
 
-def translate_and_compose(input_file, output_file, src_lang: str, target_lang: str, encoding='UTF-8', mode='split', both=True, space=False):
+def translate_and_compose(input_file, output_file, plain_txt: str, src_lang: str, target_lang: str, encoding='UTF-8', mode='split', both=True, space=False):
     """
     Translate the srt file
         Afrikaans	af      Albanian	sq      Amharic	am      Arabic	ar      Armenian	hy      Azerbaijani	az
@@ -108,7 +112,7 @@ def translate_and_compose(input_file, output_file, src_lang: str, target_lang: s
     if mode == 'naive':
         translated_list = simple_translate_srt(subtitle, src_lang, target_lang)
     else:
-        translated_list = translate_srt(subtitle, src_lang, target_lang, space=space)
+        translated_list = translate_srt(subtitle, plain_txt, src_lang, target_lang, space=space)
 
     if len(subtitle) == len(translated_list):
         if both:
