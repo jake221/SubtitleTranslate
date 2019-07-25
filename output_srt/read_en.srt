@@ -4,15 +4,15 @@ Hello everyone,
 
 2
 00:00:01,100 --> 00:00:02,130
-I am Wang Jingkun, 
+I am Wang Jingkun, I 
 
 3
 00:00:02,180 --> 00:00:05,130
-I will introduce you to the statistical learning 
+will introduce you to the statistical learning method today.
 
 4
 00:00:05,590 --> 00:00:08,170
-method today. Computers and networks have been integrated 
+Computers and networks have been integrated 
 
 5
 00:00:08,210 --> 00:00:10,740
@@ -20,51 +20,51 @@ into people's daily work and life,
 
 6
 00:00:11,010 --> 00:00:14,720
-and become indispensable assistants and partners. The 
+and become indispensable assistants and partners.
 
 7
 00:00:15,260 --> 00:00:17,110
-rapid development of computers and networks 
+The rapid development of computers and 
 
 8
 00:00:17,120 --> 00:00:19,490
-has completely changed people's learning and lifestyle. 
+networks has completely changed people's learning 
 
 9
 00:00:19,500 --> 00:00:20,570
-Intelligentization 
+and lifestyle.
 
 10
 00:00:20,830 --> 00:00:23,180
-is a major goal of computer research and 
+Intelligentization is a major goal of computer 
 
 11
 00:00:23,190 --> 00:00:24,570
-development. Practices in 
+research and development
 
 12
 00:00:24,840 --> 00:00:27,150
-recent decades have shown that statistical 
+Practices in recent decades have shown 
 
 13
 00:00:27,230 --> 00:00:29,700
-learning methods are the most effective means of 
+that statistical learning methods are the most effective 
 
 14
 00:00:29,710 --> 00:00:30,900
-achieving this goal, 
+means of achieving 
 
 15
 00:00:31,000 --> 00:00:33,640
-although it still has certain limitations. The author 
+this goal, although it still has certain limitations.
 
 16
 00:00:34,320 --> 00:00:36,830
-has been engaged in the research of various intelligent 
+The author has been engaged in the research of various 
 
 17
 00:00:36,840 --> 00:00:39,750
-processing of text data using statistical learning 
+intelligent processing of text data by using statistical learning 
 
 18
 00:00:39,760 --> 00:00:40,370

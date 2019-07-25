@@ -59,7 +59,10 @@ def translate_srt(origin_sub: list, plain_text: str, src_lang: str, target_lang:
 
     # Split the plain text into sentences.
     # Record the index of each sentence in the plain text.
+    """
     sen_list, sen_idx = split_and_record(plain_text)
+    """
+    sen_list, sen_idx = split_and_record_ch(plain_text)
 
     # Translate the subtitle and split into list
     translated_sen = t.translate_lines(sen_list, src_lang, target_lang)

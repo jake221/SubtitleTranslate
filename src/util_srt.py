@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import re
 try:
     import jieba
@@ -8,7 +10,7 @@ except ImportError:
 
 class Splitter:
     def __init__(self):
-        self.pattern = re.compile(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s')
+        self.pattern = re.compile(r'(?<!\w\.\w.。)(?<![A-Z][a-z]\.)(?<=\.|\?)\s')
 
     def split(self, text):
         return self.pattern.split(text)
@@ -33,6 +35,24 @@ def triple_r(sub_list):
 
     return plain_text[:-1], dialog_idx
 
+def split_and_record_ch(plain_text):
+    """
+    Split the plain text into sentences.
+    Record the index of each sentence in the plain text.
+    :param plain_text: Plain text output by triple_r(sub_list)
+    :return: list of sentence, index of each sentence in the plain text
+    :param plain_text:
+    :return:
+    """
+
+    sen_list = re.split(r"。", plain_text)
+    sen_idx = [0]
+    current_idx = 0
+    for sen in sen_list:
+        sen_len = len(sen) + 1
+        current_idx += sen_len
+        sen_idx.append(current_idx)
+    return sen_list, sen_idx
 
 def split_and_record(plain_text):
     """
