@@ -1,5 +1,5 @@
-from util_srt import *
-from util_trans import Translator
+from src.util_srt import *
+from src.util_trans import Translator
 import srt
 
 

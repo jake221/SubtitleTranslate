@@ -1,4 +1,4 @@
-from utils import translate_and_compose
+from src.utils import translate_and_compose
 
 input_file = "sample.en.srt"
 
