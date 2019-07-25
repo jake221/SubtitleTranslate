@@ -186,6 +186,12 @@ def sen_list2dialog_list(sen_list, mass_list, space=False, cn=False) -> list:
 
 
 def obtain_dialog_idx(origin_sub, plain_text):
+    """
+    Utilize the plain text of the video to help improve accuracy of translation
+    :param origin_sub:
+    :param plain_text:
+    :return:
+    """
     current_idx = 0
     dialog_idx = []
     for sub in origin_sub:
