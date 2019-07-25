@@ -129,5 +129,18 @@ def translate_and_compose(input_file, output_file, plain_txt: str, src_lang: str
         f.write(srt.compose(subtitle))
 
 
+def read_txt(text_file):
+    """
+    read plain text
+    :param text_file:
+    :return:
+    """
+    tmp_str = ''
+    with open(text_file, 'r') as f:
+        for line in f:
+            tmp_str += line.strip()
+    return tmp_str
+
+
 
 
