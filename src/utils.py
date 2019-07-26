@@ -64,6 +64,20 @@ def translate_srt(origin_sub: list, plain_text: str, src_lang: str, target_lang:
     """
     sen_list, sen_idx = split_and_record_ch(plain_text)
 
+    """
+    debug code
+    """
+    # 分别打印出dialog_idx和sen_idx对应的文本
+    # start_idx = 0
+    # for idx in dialog_idx:
+    #     print(plain_text[start_idx:idx])
+    #     start_idx = idx
+    #
+    # start_idx = 0
+    # for idx in sen_idx:
+    #     print(plain_text[start_idx:idx])
+    #     start_idx = idx
+
     # Translate the subtitle and split into list
     translated_sen = t.translate_lines(sen_list, src_lang, target_lang)
     translated_sen_list = translated_sen.split('\n')

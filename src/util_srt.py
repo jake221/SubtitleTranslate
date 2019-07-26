@@ -45,14 +45,19 @@ def split_and_record_ch(plain_text):
     :return:
     """
 
-    sen_list = re.split(r"。", plain_text)
+    sen_list = re.split(r"[。？！]", plain_text)
     sen_idx = [0]
-    current_idx = 0
-    for sen in sen_list:
-        sen_len = len(sen) + 1
-        current_idx += sen_len
-        sen_idx.append(current_idx)
-    return sen_list, sen_idx
+
+    start_idx = 0
+    end_idx = 0
+    real_sen_list = []
+    for tmp_sen in sen_list:
+        end_idx += len(tmp_sen) + 1
+        real_sen_list.append(plain_text[start_idx:end_idx])
+        start_idx = end_idx
+
+        sen_idx.append(end_idx)
+    return real_sen_list, sen_idx
 
 def split_and_record(plain_text):
     """
@@ -110,7 +115,7 @@ def compute_mass_list(dialog_idx, sen_idx):
     j = 1
     mass_list = []
     one_sentence = []
-    while i < len(dialog_idx):
+    while i < len(dialog_idx):  # 遍历每个dialog
         if dialog_idx[i] > sen_idx[j]:
             mass_list.append(one_sentence)
             one_sentence = []
@@ -123,10 +128,11 @@ def compute_mass_list(dialog_idx, sen_idx):
 
 
 def get_the_nearest_space(sentence: str, current_idx: int):
+    ## modified
     left_idx = sentence[:current_idx].rfind(' ')
     right_idx = sentence[current_idx:].find(' ')
 
-    if current_idx - left_idx > right_idx:
+    if (current_idx - left_idx > right_idx) & (right_idx != -1):
         return right_idx + current_idx + 1
     else:
         return left_idx + 1
@@ -178,7 +184,9 @@ def sen_list2dialog_list(sen_list, mass_list, space=False, cn=False) -> list:
         total_dialog_of_sentence = len(record)
 
         if total_dialog_of_sentence == 1:
-            dialog_list[record[0][0]-1] += sentence[0:record[0][1]]
+            # 在中文场景下这里修改为sentence
+            dialog_list[record[0][0] - 1] += sentence
+            # dialog_list[record[0][0]-1] += sentence[0:record[0][1]]
 
         else:
             origin_len = record[-1][1]
@@ -186,7 +194,7 @@ def sen_list2dialog_list(sen_list, mass_list, space=False, cn=False) -> list:
 
             last_idx = 0
             for l in range(len(record) - 1):
-                current_idx = int(translated_len * record[l][1] / origin_len)
+                current_idx = int(translated_len * record[l][1] / origin_len)   # 也是按照比例来的
                 if space and not cn:
                     current_idx = get_the_nearest_space(sentence, current_idx)
                     dialog_list[record[l][0] - 1] += sentence[last_idx:current_idx]
@@ -216,7 +224,10 @@ def obtain_dialog_idx(origin_sub, plain_text):
     dialog_idx = []
     for sub in origin_sub:
         sub.content = sub.content.replace('\n', ' ')
+        # print(sub.content)
         current_idx += len(sub.content)
+        # 这里有个问题就是plain_txt和srt可能不是完全一致的
+
         while(sub.content[-1] != plain_text[current_idx-1]):
             current_idx += 1
         dialog_idx.append(current_idx)
