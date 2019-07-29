@@ -12,11 +12,11 @@ Whether you
 
 4
 00:00:09,260 --> 00:00:11,170
-are using the computer directly or not, you are using 
+are using the computer directly or not, you are 
 
 5
 00:00:11,180 --> 00:00:13,610
-the computer intentionally or unintentionally, 
+using the computer intentionally or unintentionally, 
 
 6
 00:00:13,620 --> 00:00:15,780
@@ -36,11 +36,11 @@ you withdraw
 
 10
 00:00:20,530 --> 00:00:21,730
-money on the counter, the 
+money on the counter, 
 
 11
 00:00:22,170 --> 00:00:24,410
-bank’s resources are also used by the computer.
+the bank's resources are also used by computers.
 
 12
 00:00:25,380 --> 00:00:26,890
@@ -80,15 +80,15 @@ instead of saying that we have to write an app
 
 21
 00:00:42,430 --> 00:00:43,060
-ourselves
+ourselves.
 
 22
 00:00:44,090 --> 00:00:47,460
-Of course, if you searched all the 
+Of course, if you search all of this 
 
 23
 00:00:47,470 --> 00:00:47,970
-markets, 
+market, 
 
 24
 00:00:48,090 --> 00:00:50,360
@@ -104,27 +104,27 @@ time.
 
 27
 00:00:53,650 --> 00:00:55,770
-If you have a special request on the computer, 
+If you have a special requirement on the computer 
 
 28
 00:00:56,530 --> 00:00:57,000
-you 
+and 
 
 29
 00:00:57,010 --> 00:00:58,350
-want to do a special thing, you 
+you want to do something special, 
 
 30
 00:00:59,070 --> 00:01:00,390
-can't find the right software, 
+you can't find the right software, 
 
 31
 00:01:00,430 --> 00:01:02,480
-maybe you still have to write a software yo
+maybe you still have to write a software 
 
 32
 00:01:02,490 --> 00:01:02,940
-urself.
+yourself.
 
 33
 00:01:04,230 --> 00:01:06,520
@@ -136,11 +136,11 @@ is rare in modern
 
 35
 00:01:07,340 --> 00:01:07,570
-times, right? 
+times, right?
 
 36
 00:01:07,580 --> 00:01:09,440
-Most people don't need to write their own software.
+Most people don't need to write software themselves.
 
 37
 00:01:10,170 --> 00:01:11,550
@@ -148,35 +148,35 @@ So what is the purpose of our program
 
 38
 00:01:11,560 --> 00:01:12,110
-design? The 
+design?
 
 39
 00:01:12,600 --> 00:01:14,770
-important purpose is not to say that you 
+The important purpose is not to say that 
 
 40
 00:01:14,780 --> 00:01:15,890
-have to write a software 
+you have to write a 
 
 41
 00:01:16,120 --> 00:01:17,990
-for yourself. The important purpose is 
+software for yourself. The important purpose 
 
 42
 00:01:18,000 --> 00:01:18,350
-to learn 
+is to 
 
 43
 00:01:18,360 --> 00:01:20,490
-how to work with the computer, how the computer 
+learn how to work with the computer, how the 
 
 44
 00:01:21,210 --> 00:01:22,940
-is good at what kind of things, what 
+computer is good at what kind of things, 
 
 45
 00:01:23,370 --> 00:01:25,440
-the computer can do, What kind of 
+what the computer can do, What kind of 
 
 46
 00:01:25,670 --> 00:01:28,180
@@ -192,7 +192,7 @@ So how does the computer generally solve the
 
 49
 00:01:32,370 --> 00:01:32,700
-problem? 
+problem?
 
 50
 00:01:33,570 --> 00:01:36,810
@@ -200,11 +200,11 @@ For example, if we eat in a restaurant, just
 
 51
 00:01:37,670 --> 00:01:38,720
-sit down, I hope 
+sit down, I 
 
 52
 00:01:39,130 --> 00:01:40,580
-to drink a glass of water, I 
+hope to drink a glass of water, I 
 
 53
 00:01:41,080 --> 00:01:43,240
@@ -232,11 +232,11 @@ give me a glass of water.
 
 59
 00:01:51,500 --> 00:01:54,070
-Of course, it will know how to give you a 
+Of course, Witt knows how to get a glass of 
 
 60
 00:01:54,080 --> 00:01:54,950
-glass of water. He 
+water for you. He 
 
 61
 00:01:55,040 --> 00:01:56,310
@@ -252,7 +252,7 @@ glass of water for you,
 
 64
 00:01:57,500 --> 00:01:58,420
-and then bring it to you.
+and then take it to you.
 
 65
 00:01:59,550 --> 00:02:01,240
@@ -300,19 +300,19 @@ take the cup back to the table.
 
 76
 00:02:28,490 --> 00:02:29,690
-The computer is like this. In 
+The computer is like this. 
 
 77
 00:02:29,830 --> 00:02:32,420
-fact, let’s say that he is a computer. He is 
+In fact, we say that he is a computer. He 
 
 78
 00:02:32,430 --> 00:02:34,420
-very smart and intelligent. In 
+is very smart and intelligent. 
 
 79
 00:02:34,890 --> 00:02:36,160
-fact, the computer will not do anything.
+In fact, the computer does not.
 
 80
 00:02:36,640 --> 00:02:38,360
@@ -328,43 +328,43 @@ step by step, he will show you step by step.
 
 83
 00:02:46,050 --> 00:02:47,740
-Of course, what is his greatest 
+Of course, what is his greatest ability?
 
 84
 00:02:47,750 --> 00:02:49,500
-ability? You told him to 
+You told him to do 
 
 85
 00:02:49,780 --> 00:02:51,410
-do this step, he will not 
+this step, he will not take that 
 
 86
 00:02:52,280 --> 00:02:54,610
-take that step, he will do everything you want 
+step, he will do everything you want him to 
 
 87
 00:02:54,620 --> 00:02:55,070
-him 
+do 
 
 88
 00:02:55,110 --> 00:02:58,480
-to do well, but he does not know how to string 
+well, but he does not know how to string these 
 
 89
 00:02:58,490 --> 00:02:59,100
-these 
+steps 
 
 90
 00:02:59,380 --> 00:03:00,570
-steps to meet your 
+to meet your requirements, 
 
 91
 00:03:01,540 --> 00:03:03,390
-requirements, how to go Put these steps 
+how to go Put these steps together, 
 
 92
 00:03:03,520 --> 00:03:06,170
-together, this is what you do as a person
+this is what you have to do as a person.
 
 93
 00:03:06,270 --> 00:03:08,740
@@ -376,11 +376,11 @@ have to say what that person, what
 
 95
 00:03:11,120 --> 00:03:12,080
-do I want you to 
+I want you to do, 
 
 96
 00:03:12,530 --> 00:03:14,260
-do, and of course he knows what to do.
+and of course he knows what to do.
 
 97
 00:03:14,820 --> 00:03:16,060
@@ -388,15 +388,15 @@ But in the face
 
 98
 00:03:16,410 --> 00:03:18,550
-of the computer, we have to 
+of computers, we have to tell it 
 
 99
 00:03:18,560 --> 00:03:19,050
-tell it how to 
+how to do, 
 
 100
 00:03:19,390 --> 00:03:21,580
-do, how to make this thing
+how to make this thing happen.
 
 101
 00:03:21,760 --> 00:03:23,400
@@ -404,11 +404,11 @@ When we want to tell the
 
 102
 00:03:23,440 --> 00:03:25,160
-computer, we want the computer to know how 
+computer that we want the computer to know 
 
 103
 00:03:25,170 --> 00:03:26,500
-to make a thing, we need 
+how to make a thing, we need 
 
 104
 00:03:26,560 --> 00:03:28,170
@@ -424,15 +424,15 @@ step,
 
 107
 00:03:32,680 --> 00:03:35,500
-then this means is called a program
+then this means is called a program.
 
 108
 00:03:35,930 --> 00:03:39,410
-The program is a special programming language 
+The program is written in a special programming 
 
 109
 00:03:39,420 --> 00:03:42,350
-to write a way to express how we want the 
+language to express how we want the 
 
 110
 00:03:42,360 --> 00:03:44,550
@@ -440,39 +440,39 @@ computer to solve the problem.
 
 111
 00:03:45,870 --> 00:03:47,500
-In other words, what is the role of programming 
+In other words, what is the role of programming language?
 
 112
 00:03:47,510 --> 00:03:49,420
-language? We use a programming language to tell 
+We use a programming language to tell the 
 
 113
 00:03:49,430 --> 00:03:51,280
-the computer, I want you to do it step by step, 
+computer, I want you to do it step by step, how 
 
 114
 00:03:51,290 --> 00:03:53,900
-how to go to the kitchen to get water to give me drink
+to go to the kitchen to get water to give me drink.
 
 115
 00:03:54,720 --> 00:03:58,520
-So we are not using a programming language to 
+So we are not using a programming language to talk 
 
 116
 00:03:58,530 --> 00:03:59,690
-talk to a computer. We 
+to a computer. We 
 
 117
 00:04:00,800 --> 00:04:03,730
-use a programming language to write down the 
+use a programming language to write down the steps 
 
 118
 00:04:03,740 --> 00:04:05,330
-steps to do things for the computer 
+that a computer needs to do, and 
 
 119
 00:04:05,370 --> 00:04:06,740
-and let the computer execute.
+let the computer perform it.
 
 120
 00:04:07,460 --> 00:04:09,150
@@ -483,486 +483,478 @@ Conversation is another
 thing. If we take a computer as a person, 
 
 122
-00:04:11,120 --> 00:04:11,610
-what 
+00:04:11,690 --> 00:04:14,130
+what is our conversation with the 
 
 123
-00:04:11,690 --> 00:04:14,130
-is our conversation with the computer? 
+00:04:14,140 --> 00:04:14,390
+computer?
 
 124
-00:04:14,140 --> 00:04:14,390
-It’s 
+00:04:14,760 --> 00:04:17,260
+It's actually the actions you usually 
 
 125
-00:04:14,760 --> 00:04:17,260
-actually the actions you usually do on 
+00:04:17,270 --> 00:04:17,980
+do on your computer. 
 
 126
-00:04:17,270 --> 00:04:17,980
-your computer. 
-
-127
 00:04:17,990 --> 00:04:19,310
 For example, if you see a piece of 
 
-128
+127
 00:04:19,320 --> 00:04:19,620
 software 
 
-129
+128
 00:04:19,630 --> 00:04:20,300
 on the desktop, you 
 
-130
+129
 00:04:20,310 --> 00:04:21,010
-want to attract him, you double click
+want to attract him, you double click.
+
+130
+00:04:22,200 --> 00:04:23,490
+Double click is the way you talk to him. You 
 
 131
-00:04:22,200 --> 00:04:23,490
-Double click is the way you talk to him. 
+00:04:23,500 --> 00:04:24,800
+are ordering it to do 
 
 132
-00:04:23,500 --> 00:04:24,800
-You are ordering it to do 
+00:04:24,840 --> 00:04:26,310
+things. Then he runs the software 
 
 133
-00:04:24,840 --> 00:04:26,310
-things. Then he runs the 
+00:04:26,410 --> 00:04:29,120
+and shows you the software running. 
 
 134
-00:04:26,410 --> 00:04:29,120
-software and shows you the software 
+00:04:29,160 --> 00:04:31,710
+It is his feedback to you. This is a 
 
 135
-00:04:29,160 --> 00:04:31,710
-running. It is his feedback to you. This 
+00:04:31,820 --> 00:04:33,420
+conversation, but the programming 
 
 136
-00:04:31,820 --> 00:04:33,420
-is a conversation, but the 
+00:04:33,640 --> 00:04:34,430
+language is not. 
 
 137
-00:04:33,640 --> 00:04:34,430
-programming language 
+00:04:34,560 --> 00:04:36,320
+For conversation, you are not in the process of 
 
 138
-00:04:34,560 --> 00:04:36,320
-is not. Used to talk, you are not in 
+00:04:36,680 --> 00:04:38,750
+compiling a language, not using a 
 
 139
-00:04:36,680 --> 00:04:38,750
-the process of compiling a language, not 
+00:04:38,790 --> 00:04:40,130
+programming language to say a word, he 
 
 140
-00:04:38,790 --> 00:04:40,130
-in a programming language, he 
+00:04:40,140 --> 00:04:40,630
+does one sentence, 
 
 141
-00:04:40,140 --> 00:04:40,630
-makes a sentence, 
+00:04:40,640 --> 00:04:41,510
+this is not the same.
 
 142
-00:04:40,640 --> 00:04:41,510
-this is not the same
+00:04:42,010 --> 00:04:44,040
+What language does the computer know?
 
 143
-00:04:42,010 --> 00:04:44,040
-What language does the computer 
+00:04:45,000 --> 00:04:47,790
+The computer actually only knows the 
 
 144
-00:04:45,000 --> 00:04:47,790
-know? The computer actually only knows the 
+00:04:47,800 --> 00:04:48,590
+language on 
 
 145
-00:04:47,800 --> 00:04:48,590
-language on our 
+00:04:49,280 --> 00:04:50,810
+our screen. What you see above is 
 
 146
-00:04:49,280 --> 00:04:50,810
-screen. What you see above is a series of 
+00:04:50,820 --> 00:04:52,520
+a series of 
 
 147
-00:04:50,820 --> 00:04:52,520
-numbers. You may feel 
+00:04:53,240 --> 00:04:54,180
+numbers. You may feel strange. 
 
 148
-00:04:53,240 --> 00:04:54,180
-strange. Is there a letter 
+00:04:54,190 --> 00:04:55,170
+Is there a letter here?
 
 149
-00:04:54,190 --> 00:04:55,170
-here? That's right, this is a 
+00:04:55,180 --> 00:04:55,450
+That's 
 
 150
-00:04:55,180 --> 00:04:55,450
-hexadecimal 
+00:04:55,460 --> 00:04:57,680
+right, this is a hexadecimal number, 
 
 151
-00:04:55,460 --> 00:04:57,680
-number, because there is a hexadecimal 
+00:04:57,740 --> 00:04:59,820
+because there is a hexadecimal 
 
 152
-00:04:57,740 --> 00:04:59,820
-number, that is, it 
+00:04:59,830 --> 00:05:02,450
+number, that is, it has a number from 0 to 
 
 153
-00:04:59,830 --> 00:05:02,450
-has a number from 0 to 15, each bit has 
+00:05:02,460 --> 00:05:03,930
+15, each bit has a number from 0 to 15, so 
 
 154
-00:05:02,460 --> 00:05:03,930
-a number from 0 to 15, so the Arabic 
+00:05:03,940 --> 00:05:06,050
+the Arabic number 0 to 9 is not enough. Expressed, 
 
 155
-00:05:03,940 --> 00:05:06,050
-number 0 to 9 is not enough. Expressed, we have 
+00:05:06,130 --> 00:05:08,370
+we have to use the letters A to F to express the 
 
 156
-00:05:06,060 --> 00:05:06,120
-to 
+00:05:08,380 --> 00:05:09,270
+following 
 
 157
-00:05:06,130 --> 00:05:08,370
-use the letters A to F to express the following 
+00:05:09,510 --> 00:05:11,670
+numbers, so there will be letters inside, 
 
 158
-00:05:08,380 --> 00:05:09,270
-numbers, 
-
-159
-00:05:09,510 --> 00:05:11,670
-so there will be letters inside, 
-
-160
 00:05:11,720 --> 00:05:12,690
 but he is still a 
 
-161
+159
 00:05:12,780 --> 00:05:14,030
 number, this is a hexadecimal 
 
-162
+160
 00:05:14,040 --> 00:05:14,790
-number, this is a
+number, this is one.
+
+161
+00:05:15,370 --> 00:05:17,700
+This is a program that a computer can understand, written 
+
+162
+00:05:17,740 --> 00:05:19,240
+in a language that the computer understands.
 
 163
-00:05:15,370 --> 00:05:17,700
-This is a program that a computer can understand, 
-
-164
-00:05:17,740 --> 00:05:19,240
-written in a language that the computer knows.
-
-165
 00:05:20,270 --> 00:05:22,390
 Obviously this program is 
 
-166
+164
 00:05:22,430 --> 00:05:23,320
 for you, and it is 
 
-167
+165
 00:05:23,330 --> 00:05:23,860
-in front of us. No 
+in front of 
+
+166
+00:05:23,870 --> 00:05:24,320
+us. No one can 
+
+167
+00:05:24,370 --> 00:05:26,640
+understand it. I don't understand it. I 
 
 168
-00:05:23,870 --> 00:05:24,320
-one can understand 
+00:05:26,650 --> 00:05:28,680
+don't know what it means to be the 
 
 169
-00:05:24,370 --> 00:05:26,640
-it. I don't understand it. I don't 
+00:05:28,690 --> 00:05:29,010
+CFFA.
 
 170
-00:05:26,650 --> 00:05:28,680
-know what it means to be the CFFA. 
+00:05:30,240 --> 00:05:33,640
+Because this piece of program is 
 
 171
-00:05:28,690 --> 00:05:29,010
-Because 
+00:05:33,650 --> 00:05:34,320
+transformed from 
 
 172
-00:05:30,240 --> 00:05:33,640
-this piece of program is converted from 
+00:05:34,330 --> 00:05:35,700
+something we can understand 
 
 173
-00:05:33,650 --> 00:05:34,320
-something 
+00:05:36,040 --> 00:05:38,910
+through another piece of software, or 
 
 174
-00:05:34,330 --> 00:05:35,700
-we can understand through 
+00:05:38,920 --> 00:05:39,090
+through 
 
 175
-00:05:36,040 --> 00:05:38,910
-another piece of software, or through a 
+00:05:39,220 --> 00:05:40,630
+a tool, what it looks like.
 
 176
-00:05:38,920 --> 00:05:39,090
-tool, 
-
-177
-00:05:39,220 --> 00:05:40,630
-what he used to be like this
-
-178
 00:05:45,670 --> 00:05:48,060
 Of course, before you learn any programming 
 
-179
+177
 00:05:48,170 --> 00:05:50,860
-language, this paragraph may still be like 
+language, this paragraph may still be 
+
+178
+00:05:50,870 --> 00:05:51,620
+like a book for 
+
+179
+00:05:51,630 --> 00:05:53,160
+you. Although you can probably guess 
 
 180
-00:05:50,870 --> 00:05:51,620
-a book for you. 
+00:05:53,250 --> 00:05:54,720
+what kind of things may be 
 
 181
-00:05:51,630 --> 00:05:53,160
-Although you can probably guess what kind 
+00:05:55,080 --> 00:05:56,480
+there, what is this program doing?
 
 182
-00:05:53,250 --> 00:05:54,720
-of things may be there, what 
+00:05:58,020 --> 00:06:01,130
+This procedure is to use the 辗 division method 
 
 183
-00:05:55,080 --> 00:05:56,480
-is this program doing? This program 
+00:06:01,140 --> 00:06:02,540
+to calculate 
 
 184
-00:05:58,020 --> 00:06:01,130
-is to use the 辗 division method to 
+00:06:02,580 --> 00:06:05,070
+two numbers, which are the greatest common divisors 
 
 185
-00:06:01,140 --> 00:06:02,540
-calculate two numbers, 
+00:06:05,200 --> 00:06:06,310
+of 32 and 26 here.
 
 186
-00:06:02,580 --> 00:06:05,070
-which is the greatest common divisor of 
-
-187
-00:06:05,200 --> 00:06:06,310
-32 and 26 here.
-
-188
 00:06:07,420 --> 00:06:09,490
 So what you see is this program, although 
 
-189
+187
 00:06:09,500 --> 00:06:11,990
 this program is that we say that it is 
 
-190
+188
 00:06:12,000 --> 00:06:13,110
 written in human programming 
 
-191
+189
 00:06:13,270 --> 00:06:15,690
 language, but can you understand that 
 
-192
+190
 00:06:15,700 --> 00:06:17,190
 there is another thing on the 
 
-193
+191
 00:06:17,340 --> 00:06:19,760
 program, we are now listed on the left, 
 
-194
+192
 00:06:19,800 --> 00:06:22,050
 The series of texts listed on the right, 
 
-195
+193
 00:06:22,060 --> 00:06:22,830
 the text of this series, 
 
-196
+194
 00:06:22,840 --> 00:06:23,960
 we call it the algorithm, we 
 
-197
+195
 00:06:24,020 --> 00:06:25,310
-have to calculate the same
+have to calculate the same.
 
-198
+196
 00:06:25,500 --> 00:06:27,470
 Things we need to have steps, 
 
-199
+197
 00:06:27,480 --> 00:06:28,830
 we have to tell the computer how to do it, 
 
-200
+198
 00:06:28,840 --> 00:06:30,350
 just like before going to the 
 
-201
+199
 00:06:30,420 --> 00:06:33,020
 water, we have to have a step by step step to 
 
-202
+200
 00:06:33,030 --> 00:06:34,220
-tell the computer, we 
+tell the computer, we tell 
+
+201
+00:06:34,370 --> 00:06:35,550
+the computer that if you 
+
+202
+00:06:35,590 --> 00:06:37,760
+find that one is already equal to 0, Then we will 
 
 203
-00:06:34,370 --> 00:06:35,550
-tell the computer that if you 
+00:06:37,770 --> 00:06:39,360
+finish the oil is the greatest common 
 
 204
-00:06:35,590 --> 00:06:37,760
-find that one is already equal to 0, Then we 
+00:06:39,370 --> 00:06:40,000
+denominator.
 
 205
-00:06:37,770 --> 00:06:39,360
-will finish the oil is the greatest common 
-
-206
-00:06:39,370 --> 00:06:40,000
-divisor.
-
-207
 00:06:40,290 --> 00:06:41,270
 If V is not equal to 0, 
 
-208
+206
 00:06:41,280 --> 00:06:43,330
 we have to do a series of complicated calculations. 
 
-209
+207
 00:06:43,340 --> 00:06:45,270
 After we finish, we have to go back to the 
 
-210
+208
 00:06:45,520 --> 00:06:47,210
 first step, so that we can continue to 
 
-211
+209
 00:06:47,220 --> 00:06:48,660
 calculate and finally get a result.
 
-212
+210
 00:06:49,410 --> 00:06:51,940
-Some of thes
+Some of these descriptions are called algorithms.
+
+211
+00:06:52,110 --> 00:06:54,180
+So what you see in the computer is the 
+
+212
+00:06:54,190 --> 00:06:55,140
+kind of binary stuff, 
 
 213
-00:06:52,110 --> 00:06:54,180
-So what you see in the computer is the kind of 
+00:06:55,250 --> 00:06:57,670
+and then this is what the computer 
 
 214
-00:06:54,190 --> 00:06:55,140
-binary stuff, and then 
+00:06:57,680 --> 00:06:58,190
+knows, right?
 
 215
-00:06:55,250 --> 00:06:57,670
-this is what the computer knows, right? Then 
+00:06:58,300 --> 00:07:01,120
+Then this is something that people can 
 
 216
-00:06:57,680 --> 00:06:58,190
-this is something 
+00:07:01,160 --> 00:07:03,280
+understand, but this is what programmers can understand. This 
 
 217
-00:06:58,300 --> 00:07:01,120
-that people can understand, but this is 
+00:07:03,290 --> 00:07:05,980
+is what people who have learned programming can understand.
 
 218
-00:07:01,160 --> 00:07:03,280
-what programmers can understand. This is something 
+00:07:06,610 --> 00:07:09,540
+Online is something that ordinary people can 
 
 219
-00:07:03,290 --> 00:07:05,980
-that people who have learned programming can understand.
+00:07:09,550 --> 00:07:09,880
+understand. 
 
 220
-00:07:06,610 --> 00:07:09,540
-On the Internet is something that ordinary people 
+00:07:09,890 --> 00:07:12,650
+This is how to do the calculation, 
 
 221
-00:07:09,550 --> 00:07:09,880
-can 
+00:07:12,700 --> 00:07:13,640
+which is the algorithm.
 
 222
-00:07:09,890 --> 00:07:12,650
-understand. This is how to do the calculation, 
-
-223
-00:07:12,700 --> 00:07:13,640
-that is, the algorithm.
-
-224
 00:07:13,840 --> 00:07:17,060
 There are many steps in the middle of everything from 
 
-225
+223
 00:07:17,070 --> 00:07:17,690
 algorithms 
 
-226
+224
 00:07:17,740 --> 00:07:19,930
 to programs to things that computers 
 
-227
+225
 00:07:19,980 --> 00:07:21,230
 can run. There are many things to do.
 
-228
+226
 00:07:21,860 --> 00:07:24,520
 So we have to let the computer do the calculations, 
 
-229
+227
 00:07:24,970 --> 00:07:26,970
 we need to find the calculation steps like this, 
 
-230
+228
 00:07:27,020 --> 00:07:29,180
 and then the programmer will write it out.
 
-231
+229
 00:07:29,580 --> 00:07:32,010
 Everything we do with a computer is called calculation. It is 
 
-232
+230
 00:07:32,020 --> 00:07:32,710
 not that only 
 
-233
+231
 00:07:33,070 --> 00:07:35,140
 addition, subtraction, multiplication, and division 
 
-234
+232
 00:07:35,190 --> 00:07:36,960
 are performed. Arithmetic operations are called 
 
-235
+233
 00:07:37,020 --> 00:07:40,100
-calculations. All things that are done by computers are calc
+calculations. All things that are done by computers are 
 
-236
+234
 00:07:40,110 --> 00:07:40,660
-ulations.
+calculations.
 
-237
+235
 00:07:40,850 --> 00:07:43,060
 Including calculating your 
 
-238
+236
 00:07:43,420 --> 00:07:45,290
-birthday, including drawing a 
+birthday, including drawing 
+
+237
+00:07:45,330 --> 00:07:47,050
+a picture, including showing you a 
+
+238
+00:07:47,090 --> 00:07:48,180
+movie, this is all 
 
 239
-00:07:45,330 --> 00:07:47,050
-picture, including showing you a movie, 
+00:07:48,190 --> 00:07:50,200
+calculations, as long as the computer does the calculations.
 
 240
-00:07:47,090 --> 00:07:48,180
-this is all calculations, 
-
-241
-00:07:48,190 --> 00:07:50,200
-as long as the computer does things are calculations.
-
-242
 00:07:50,200 --> 00:07:53,180
-The calcula
+The calculation step is called an algorithm.
 
